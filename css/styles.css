@@ -685,14 +685,12 @@ outline: transparent;
      justify-content: center;
      fill: transparent;
 }
-.input:checked .user-privacy-icon {
+.visually-hidden:checked + .label-user-privacy .user-privacy-icon {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
 }
-.user-privacy-icon {
-    color: #4d5ae5;
-}
+
 .send-button {
     display: block;
     min-width: 169px;
