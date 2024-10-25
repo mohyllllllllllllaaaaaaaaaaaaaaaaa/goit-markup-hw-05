@@ -630,16 +630,16 @@ outline: transparent;
     border-color: #4D5AE5;
 }
 .form-icon {
-    fill:  #2e2f42;
+    fill: ;
     position: absolute;
     left: 16px;
     top:50%;
     transform: translateY(-50%); 
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.user-inform:focus .form-icon{
-    fill: #4d5ae5;
+.user-inform:focus,
+.user-inform:focus .form-icon {
+    fill: #4D5AE5;
 }
 .modal-form-textarea {
     margin-bottom: 16px;
@@ -713,5 +713,7 @@ outline: transparent;
 .send-button:hover,
 .send-button:focus {
     background-color: #404bbf;
+}
+.icon-clo-ick{
 }
 
