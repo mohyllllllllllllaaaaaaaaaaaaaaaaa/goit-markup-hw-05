@@ -541,7 +541,7 @@ color:#ffffff;
 
 }
 .modal {padding: 72px 24px 24px 24px;
-    position: fixed;
+    position: absolute;
     top:50%;
     left: 50%;
     width: 408px;
