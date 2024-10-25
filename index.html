@@ -503,14 +503,78 @@
                   id="user-name"
                   name="user-name"
                   type="text"
-                  class="user-name"
+                  class="user-inform"
                 />
-                <svg class="name-icon" width="18" height="24">
+                <svg class="form-icon" width="18" height="24">
                   <use href="./images/symbol-input.svg#icon-person"></use>
                 </svg>
               </div>
             </label>
           </div>
+          <div class="modal-form-items">
+            <label class="form-label" for="user-phone"
+              >Phone
+              <div class="form-input">
+                <input
+                  id="user-phone"
+                  name="user-phone"
+                  type="tel"
+                  class="user-inform"
+                />
+                <svg class="form-icon" width="18" height="24">
+                  <use href="./images/symbol-input.svg#icon-phone"></use>
+                </svg>
+              </div>
+            </label>
+          </div>
+          <div class="modal-form-items">
+            <label class="form-label" for="user-email"
+              >Email
+              <div class="form-input">
+                <input
+                  id="user-email"
+                  name="user-email"
+                  type="email"
+                  class="user-inform"
+                />
+                <svg class="form-icon" width="18" height="24">
+                  <use href="./images/symbol-input.svg#icon-email"></use>
+                </svg>
+              </div>
+            </label>
+          </div>
+          <div class="modal-form-textarea">
+            <labe for="user-comment" class="form-label">
+              Comment
+              <textarea
+                id="user-comment"
+                name="user-comment"
+                placeholder="Text input"
+                class="user-comment"
+              >
+              </textarea>
+            </labe>
+          </div>
+          <div class="form-checkbox">
+            <input
+              id="user-privacy"
+              type="checkbox"
+              value="true"
+              name="user-privacy"
+              class="visually-hidden"
+              checked
+            />
+            <label for="user-privacy" class="label-user-privacy"
+              >I accept the terms and conditions of the
+              <a class="privacy-police" href="">Privacy Policy</a>
+              <span class="user-privacy-icon">
+                <svg width="10" height="8" class="icon-clo=ick">
+                  <use href="./images/click.svg#icon-click"></use>
+                </svg>
+              </span>
+            </label>
+          </div>
+          <button class="send-button" type="submit">Send</button>
         </form>
       </div>
     </div>
