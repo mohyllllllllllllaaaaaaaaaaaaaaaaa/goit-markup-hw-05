@@ -538,3 +538,9 @@ margin-left: 16px 0;
     visibility: visible;
     pointer-events: auto;
 }
+.backdrop-icon {
+    border-radius: 50%;
+fill: #e7e9fc;
+stroke-width: 1px;
+stroke: rgba(0, 0, 0, 0.1);
+}
