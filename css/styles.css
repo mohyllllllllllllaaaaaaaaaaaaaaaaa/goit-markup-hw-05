@@ -520,7 +520,7 @@ color:#ffffff;
 }
 /*modal*/
 .backdrop {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -540,14 +540,13 @@ color:#ffffff;
      transform: translate(-50%, -50%) scale(1.5);
 
 }
-.modal {
-     padding-right: 29px;
-     padding-left: 19px;
-    position: absolute;
+.modal {padding: 72px 24px 24px 24px;
+    position: fixed;
     top:50%;
     left: 50%;
     width: 408px;
     height: 584px;
+    min-height: 584px;
      transform: translate(-50%, -50%);
     border-radius: 4px;
     transform: translate(-50%, -50%);
@@ -578,7 +577,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
       border: 1px solid rgba(0, 0, 0, 0.1);
       padding: 0;
       cursor: pointer;
-       background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .modal-close-btn:hover,
 .modal-close-btn:focus {
